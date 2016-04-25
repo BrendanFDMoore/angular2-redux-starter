@@ -17,6 +17,7 @@ import { RioContainer, RioCounter } from '../components';
       <rio-counter
         [counter]="counter"
         [increment]="increment"
+        [incrementBy]="incrementBy"
         [decrement]="decrement">
       </rio-counter>
     </rio-container>

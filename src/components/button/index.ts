@@ -8,7 +8,6 @@ import { Component, EventEmitter, Input, Output } from 'angular2/core';
       (click)="handleClick($event)"
       type="{{type || 'button'}}"
       class="btn btn-primary {{className}}">
-
       <ng-content></ng-content>
     </button>
   `
